@@ -1,4 +1,6 @@
 FROM jenkins/jenkins:latest
+LABEL maintainer="Robert Jensen - robert@robert-jensen.dk"
+LABEL description="Jenkins container, build from the original repo, with added Docker tools etc"
 USER root
 RUN apt-get update && \
     apt-get -y install apt-transport-https \
