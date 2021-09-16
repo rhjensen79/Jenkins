@@ -1,2 +1,2 @@
-# Jenkins_Docker
-Jenkins container, with local Docker integration
+# Jenkins
+Jenkins container, with local Docker tools included.
